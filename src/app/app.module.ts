@@ -5,6 +5,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { DashboardModule } from './dashboard/dashboard.module';
 import { CalculadoraModule } from './calculadora/calculadora.module';
 import { ConversorModule } from './conversor/conversor.module';
+import { TarefasModule } from './tarefas/tarefas.module';
 
 import { AppComponent } from './app.component';
 
@@ -17,6 +18,7 @@ import { AppComponent } from './app.component';
     DashboardModule,
     CalculadoraModule,
     ConversorModule,
+    TarefasModule,
     AppRoutingModule
   ],
   providers: [],
