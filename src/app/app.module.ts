@@ -6,6 +6,7 @@ import { DashboardModule } from './dashboard/dashboard.module';
 import { CalculadoraModule } from './calculadora/calculadora.module';
 import { ConversorModule } from './conversor/conversor.module';
 import { TarefasModule } from './tarefas/tarefas.module';
+import { JogoDaVelhaModule } from './jogo-da-velha/jogo-da-velha.module';
 
 import { AppComponent } from './app.component';
 
@@ -19,6 +20,7 @@ import { AppComponent } from './app.component';
     CalculadoraModule,
     ConversorModule,
     TarefasModule,
+    JogoDaVelhaModule,
     AppRoutingModule
   ],
   providers: [],
